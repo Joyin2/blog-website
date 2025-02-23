@@ -96,9 +96,11 @@ export default function Articles() {
 
         {/* View All Button */}
         <div className="text-center mt-8">
+        <Link href="/articles">
           <button className="px-6 py-3 bg-white text-blue-600 font-medium rounded-lg shadow-lg hover:bg-gray-100 transition">
             See All Articles
           </button>
+        </Link>
         </div>
       </div>
     </section>
